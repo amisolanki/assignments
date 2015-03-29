@@ -1,0 +1,12 @@
+print("The program that illustrate the functionality of the ENDSWITH function")
+string1="Python is very easy to learn"
+print("The string is===>>>")
+print(string1)
+print("Now if it's ends with the word given into the function then it returns true")
+print("--------------------------------------------------------")
+print(string1.endswith("learn"))
+print("--------------------------------------------------------")
+print("Otherwise it returns false in reply")
+print("--------------------------------------------------------")
+print(string1.endswith("hello"))
+print("--------------------------------------------------------")

@@ -1,0 +1,33 @@
+l1=[1,9,10,'abc','xyz',27.1,36.1,[100,55.0,'a'],1000]
+
+print("The l1 list is:")
+
+print(l1)
+print()
+
+l2={'a':'astro','b':'bender','c':'cupcake'}
+print("The dictionary is:",l2)
+print()
+
+
+l1.insert(10,l2)
+print("After inserting the dictionary in list==>>",l1)
+
+for i in l1:
+    if type(i)==dict:
+
+        print(l2.keys())
+        print()
+        print(l2.values())     
+
+
+
+
+
+
+
+
+
+
+
+
